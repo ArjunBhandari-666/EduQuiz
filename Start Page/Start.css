@@ -1,0 +1,152 @@
+
+body {
+  font-size: 14px;
+}
+.Page {
+  width: 100%;
+  height: 100%;
+  top:0%;
+  left:0%;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,255,132,1), rgba(62,251,160,1));
+}
+.BottomCircle {
+  width: 60%;
+  height: 120%;
+  background: linear-gradient(rgba(66,255,0,0.4000000059604645), rgba(153,255,117,0.6899999976158142));
+  opacity: 1;
+  position: absolute;
+  top:25%;
+  left:25%;
+  border-radius: 50%;
+}
+.StartQuizBox {
+  width: 40%;
+  height: 10%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  border-top-left-radius: 119px;
+  border-top-right-radius: 119px;
+  border-bottom-left-radius: 119px;
+  border-bottom-right-radius: 119px;
+  overflow: hidden;
+}
+.StartQuizText {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.ContactUsBox {
+  width: 20%;
+  height: 10%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 6%;
+  left: 52.5%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.AboutUsBox {
+  width: 20%;
+  height: 10%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 6%;
+  left: 30%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.QuerryFormBox {
+  width: 20%;
+  height: 10%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 6%;
+  left: 75%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.ContactUsText {
+  width: 383px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 50px;
+  left: 1537px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.AboutUsText {
+  width: 30%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.QuerryFormText {
+  width: 30%;
+  font-size: 30%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.Logo {
+  width: 10%;
+  height: 20%;
+  background: url("http://www.clipartbest.com/cliparts/4ib/LRz/4ibLRzjKT.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
+}
+.StudentImage {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 32%;
+  left: 35%;
+  overflow: hidden;
+}
