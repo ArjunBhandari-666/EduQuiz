@@ -91,11 +91,11 @@ body {
   overflow: hidden;
 }
 .ContactUsText {
-  width: 383px;
+  width: 30%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 50px;
-  left: 1537px;
+  top: 7%;
+  left: 70%;
   font-family: Montserrat;
   font-weight: Medium;
   font-size: 48px;
@@ -116,14 +116,13 @@ body {
 }
 .QuerryFormText {
   width: 30%;
-  font-size: 30%;
+  font-size: 43px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 7%;
-  left: 50%;
+  left: 48%;
   font-family: Montserrat;
   font-weight: Medium;
-  font-size: 48px;
   opacity: 1;
   text-align: center;
 }
