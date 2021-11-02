@@ -38,13 +38,12 @@ body {
 }
 .StartQuizText {
   width: 100%;
+  top:13%;
+  font-size: 3vw;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 10%;
-  left: 0%;
   font-family: Montserrat;
   font-weight: Medium;
-  font-size: 40px;
   opacity: 1;
   text-align: center;
 }
@@ -93,34 +92,33 @@ body {
 .ContactUsText {
   width: 100%;
   height: 100%;
+  top:15%;
   color: rgba(0,0,0,1);
   position: absolute;
   font-family: Montserrat;
   font-weight: Medium;
-  font-size: 25.5vw;
+  font-size: 2.5vw;
   opacity: 1;
   text-align: center;
   justify-content: center;
 }
 .AboutUsText {
-  width: 30%;
+  width: 100%;
+  top:15%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 7.3%;
-  left: 25%;
   font-family: Montserrat;
   font-weight: Medium;
-  font-size: 35px;
+  font-size: 2.5vw;
   opacity: 1;
   text-align: center;
 }
 .QuerryFormText {
-  width: 30%;
-  font-size: 35px;
+  width: 100%;
+  top:15%;
+  font-size: 2.5vw;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 7%;
-  left: 47.5%;
   font-family: Montserrat;
   font-weight: Medium;
   opacity: 1;
