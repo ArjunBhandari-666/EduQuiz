@@ -36,6 +36,10 @@ body {
   border-bottom-right-radius: 119px;
   overflow: hidden;
 }
+.StartQuizBox:hover
+{
+  background: aliceblue;
+}
 .StartQuizText {
   width: 100%;
   top:13%;
@@ -46,6 +50,11 @@ body {
   font-weight: Medium;
   opacity: 1;
   text-align: center;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .ContactUsBox {
   width: 20%;
@@ -101,6 +110,11 @@ body {
   opacity: 1;
   text-align: center;
   justify-content: center;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .AboutUsText {
   width: 100%;
@@ -112,6 +126,11 @@ body {
   font-size: 2.5vw;
   opacity: 1;
   text-align: center;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .QuerryFormText {
   width: 100%;
@@ -123,6 +142,11 @@ body {
   font-weight: Medium;
   opacity: 1;
   text-align: center;
+  
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .Logo {
   width: 10%;
