@@ -77,12 +77,12 @@ body {
 
 .AboutUsBox {
   width: 20%;
-  height: 10%;
+  height: 13%;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 6%;
-  left: 30%;
+  top: 4%;
+  left: 25%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
