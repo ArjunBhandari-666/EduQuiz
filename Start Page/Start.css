@@ -77,11 +77,11 @@ body {
 
 .AboutUsBox {
   width: 20%;
-  height: 13%;
+  height: 10%;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 4%;
+  top: 6%;
   left: 18%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -133,7 +133,7 @@ body {
 }
 .AboutUsText {
   width: 100%;
-  top:25%;
+  top:20%;
   color: rgba(0,0,0,1);
   position: absolute;
   font-family: Montserrat;
@@ -183,6 +183,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 32%;
-  left: 35%;
+  left: 32%;
   overflow: hidden;
 }
