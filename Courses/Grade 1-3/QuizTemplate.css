@@ -41,15 +41,153 @@ body
     height: 70%;
     top: 25%;
     left: 5%;
+    display: flexbox;
 }
 
-.Opt 
+.Opt1 
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #7389AE;
+    display: flex;
+}
+
+.Opt2
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    margin-left: 27%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #5A789B;
+    display: flex;
+}
+
+.Opt3
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    right: 27%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #8496B7;
+    display: flex;
+}
+
+.Opt4
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    right: 0%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #416788;
+    display: flex;
+}
+
+.opt1
 {
     position: relative;
-    width: 20%;
+    width: 100%;
     height: 100%;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    background: #000000;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt2
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt3
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt4
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+#score
+{
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    background-color: #A1FFB6;
+    right: 0%;
+    top: 22%;
+}
+.scoreText
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
 }
