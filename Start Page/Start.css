@@ -169,8 +169,8 @@ body {
   background: url("http://www.clipartbest.com/cliparts/4ib/LRz/4ibLRzjKT.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 50%;
-  background-size: cover;
+  background-size: 45%;
+  background-size: contain;
   opacity: 1;
   position: absolute;
   top: 1%;
