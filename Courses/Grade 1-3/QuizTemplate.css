@@ -18,10 +18,11 @@ body
 
 .Question
 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
-
+    max-width: fit-content;
+    margin: auto;
     font-family: Solway;
     font-style: normal;
     font-weight: normal;
@@ -30,6 +31,25 @@ body
     align-items: center;
     align-self: center;
     text-align: center;
-
     color: #000000;
+}
+
+.OptionBoxes
+{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 25%;
+    left: 5%;
+}
+
+.Opt 
+{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background: #000000;
 }
