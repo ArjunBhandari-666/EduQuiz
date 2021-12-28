@@ -1,0 +1,95 @@
+body
+{
+    margin: 0%;
+    background: #D6FFCB;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.topBox
+{   
+    position: absolute;
+    margin: 0%;
+    width: 100%;
+    height: 20%;
+    background: #3cffa1;
+}
+.topBoxText
+{   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 25%;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.bgcircle
+{
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    right:80%;
+    top: 12%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.backB
+{
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 45%;
+}
+
+.optionBox
+{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    top: 23%;
+    left: 30%;
+}
+
+.B
+{
+    position: relative;
+    width: 100%;
+    height: 16%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.B:hover
+{
+    background: aliceblue;
+}
+.ButtonText
+{
+    position: absolute;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 10vw;
+    top: 1vh;
+    color: #000000;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
