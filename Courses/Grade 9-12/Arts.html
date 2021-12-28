@@ -1,20 +1,22 @@
-<html>
+!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Course Selection</title>
-        <link rel="stylesheet" href="main.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="QuizTemplate.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>English Quiz</title>
     </head>
     <body>
-        <div class="bgcircle">        
-            <div class="backB" onclick="window.location.href='../../Grades/Grade.html'"><img src="../../Grades/back.png" alt="BACK" width="100%"></div>
-        </div>
         <div class="topBox">
-            <span class="topBoxText">Select the course you would like</span>
+            <center class="Question">Question goes here</center>
+        </div>    
+        <div class="OptionBoxes">
+            <div class="Opt1"><span class="opt1">Option goes here</span></div>
+            <div class="Opt2"><span class="opt2">Option goes here</span></div>
+            <div class="Opt3"><span class="opt3">Option goes here</span></div>
+            <div class="Opt4"><span class="opt4">Option goes here</span></div>
         </div>
-        <div class="optionBox">
-            <div class="B 1" onclick="window.location.href='English.html'"><span class="ButtonText">Finance</span></div>
-            <div class="B 2" onclick="window.location.href='Math.html'"><span class="ButtonText">News</span></div>
-            <div class="B 3" onclick="window.location.href='SST.html'"><span class="ButtonText">Politics</span></div>
-            <div class="B 4" onclick="window.location.href='VEd.html'"><span class="ButtonText">Transport</span></div>
-        </div>
+        <div id="score"><span class="scoreText">Score : x</span></div>
     </body>
 </html>
