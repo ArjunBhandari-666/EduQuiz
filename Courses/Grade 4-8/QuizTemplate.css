@@ -1,0 +1,197 @@
+body
+{
+    overflow: hidden;
+    margin: 0%;
+    background: #81D2C7;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.topBox
+{
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #A4FFFA;
+    align-items: center;
+    text-align: center;
+}
+
+.Question
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.OptionBoxes
+{
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 25%;
+    left: 5%;
+    display: flexbox;
+}
+
+.Opt1 
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #7389AE;
+    display: flex;
+}
+
+.Opt2
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    margin-left: 27%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #5A789B;
+    display: flex;
+}
+
+.Opt3
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    right: 27%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #8496B7;
+    display: flex;
+}
+
+.Opt4
+{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    right: 0%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    background-color: #416788;
+    display: flex;
+}
+
+.opt1
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt2
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt3
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+.opt4
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+
+#score
+{
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    background-color: #A1FFB6;
+    right: 0%;
+    top: 22%;
+}
+.scoreText
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
