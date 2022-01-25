@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="QuizTemplate.css">
+        <link id="link" rel="stylesheet" href="QuizTemplate.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Science 1-3 </title>
     </head>
@@ -20,18 +20,57 @@
         <div id="score"><span class="scoreText">Score : x</span></div>
     </body>
     <script>
+        var i=0;
+        var score=0;
         var q=["","","","","","","","","",""];
         var op1=["","","","","","","","","",""];
         var op2=["","","","","","","","","",""];
         var op3=["","","","","","","","","",""];
         var op4=["","","","","","","","","",""];
+        var ans=[,,,,,,,,,];
         var question=document.getElementsByClassName("Question")[0].innerHTML;
         var option1=document.getElementsByClassName("opt1")[0].innerHTML;
         var option2=document.getElementsByClassName("opt2")[0].innerHTML;
         var option3=document.getElementsByClassName("opt3")[0].innerHTML;
         var option4=document.getElementsByClassName("opt4")[0].innerHTML;
+        var scoreText=document.getElementsByClassName("scoreText")[0];
         window.onload=function ()
         {
+            question.innerHTML=q[i];
+            option1.innerHTML=op1[i];
+            option2.innerHTML=op2[i];
+            option3.innerHTML=op3[i];
+            option4.innerHTML=op4[i];
+        }
+        function giveScore(x)
+        {
+            if(x==ans[i])
+            {
+                scoreText.innerHTML="Score : "+ (++score)
+            }
+            i++
+        }
+        function clickOption(x)
+        {
+            if(i<9)
+            {
+                giveScore(x)
+                question.innerHTML=q[i];
+                option1.innerHTML=op1[i];
+                option2.innerHTML=op2[i];
+                option3.innerHTML=op3[i];
+                option4.innerHTML=op4[i];
+            }
+            else
+            {
+                showScore(score)
+            }
+        }
+        function showScore(x)
+        {
+            document.getElementById("link").href="score.css"
+            question.innerHTML="Final Score : "+score
+            scoreText.innerHTML="Abilities Learned : \n1.Language\n2.Homophones\n3.Pronouns"
         }
     </script>
 </html>
