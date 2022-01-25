@@ -1,0 +1,84 @@
+body
+{
+    overflow: hidden;
+    margin: 0%;
+    background: #81D2C7;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.opt1
+{ 
+    pointer-events: none;cursor: not-allowed;
+    visibility: hidden;
+}
+.opt2
+{
+    pointer-events: none;cursor: default;
+    visibility: hidden;
+}
+.opt3
+{
+    pointer-events: none;cursor: default;
+    visibility: hidden;
+}
+.opt4
+{
+    pointer-events: none;cursor: default;
+    visibility: hidden;
+}
+.Question
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    color: #000000;
+}
+.topBox
+{
+    top:20%;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: #A4FFFA;
+    align-items: center;
+    text-align: center;
+}
+.OptionBoxes
+{
+    background: #5ccec8;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    top: 45%;
+    left: 5%;
+    display: flexbox;
+}
+.scoreText
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: fit-content;
+    margin: auto;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}

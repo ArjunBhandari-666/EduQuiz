@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="QuizTemplate.css">
+        <link id="link" rel="stylesheet" href="QuizTemplate.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>English Quiz 1-3</title>
     </head>
@@ -17,7 +17,7 @@
             <div class="Opt3" onclick="clickOption(3)"><span class="opt3">Option goes here</span></div>
             <div class="Opt4" onclick="clickOption(4)"><span class="opt4">Option goes here</span></div>
         </div>
-        <div id="score"><span class="scoreText">Score : x</span></div>
+        <div id="score"><span class="scoreText">Score : 0</span></div>
     </body>
     <script>
         var i=0;
@@ -65,8 +65,14 @@
             }
             else
             {
-                window.location.href="https://www.google.com"
+                showScore(score)
             }
+        }
+        function showScore(x)
+        {
+            document.getElementById("link").href="score.css"
+            question.innerHTML="Final Score : "+score
+            scoreText.innerHTML="Abilities Learned : \n1.Language\n2.Homophones\n3.Pronouns"
         }
     </script>
 </html>
