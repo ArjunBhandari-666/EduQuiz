@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="QuizTemplate.css">
+        <link id="link" rel="stylesheet" href="QuizTemplate.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>English Quiz 1-3</title>
     </head>
@@ -12,14 +12,16 @@
             <center class="Question">Question goes here</center>
         </div>    
         <div class="OptionBoxes">
-            <div class="Opt1"><span class="opt1">Option goes here</span></div>
-            <div class="Opt2"><span class="opt2">Option goes here</span></div>
-            <div class="Opt3"><span class="opt3">Option goes here</span></div>
-            <div class="Opt4"><span class="opt4">Option goes here</span></div>
+            <div class="Opt1" onclick="clickOption(1)"><span class="opt1">Option goes here</span></div>
+            <div class="Opt2" onclick="clickOption(2)"><span class="opt2">Option goes here</span></div>
+            <div class="Opt3" onclick="clickOption(3)"><span class="opt3">Option goes here</span></div>
+            <div class="Opt4" onclick="clickOption(4)"><span class="opt4">Option goes here</span></div>
         </div>
-        <div id="score"><span class="scoreText">Score : x</span></div>
+        <div id="score"><span class="scoreText">Score : 0</span></div>
     </body>
     <script>
+        var i=0;
+        var score=0;
         var q=["What is the meaning of 'confident'?","Where do you find a lot of books?","Which of the following is a happy emotion?","Which of the following 'bat' refers to sport?"
             ,"Which of the following is a greeting?","What can you call your teachers?","Which of the following has the correct spelling","Fill the sentence with appropriate terms- _ have an _"
             ,"Where does a pig live?","What is the hair around a lion called?"];
@@ -27,13 +29,50 @@
         var op2=["Scared","Restaurant","Cry","The bat was asleep","Eat","Sir/ Ma'am","Butterfli","He, leg","Sty","Mane"];
         var op3=["Hungry","Library","Sad","He hit me with a bat","Soup","Friend","Butterfly","Thet, team","Stables","Maane"];
         var op4=["Sleepy","Park","Smile","Bats move in the dark","Cold","Aunty/Uncle","Buterfli","We, pen","Kennels","Maine"];
-        var question=document.getElementsByClassName("Question")[0].innerHTML;
-        var option1=document.getElementsByClassName("opt1")[0].innerHTML;
-        var option2=document.getElementsByClassName("opt2")[0].innerHTML;
-        var option3=document.getElementsByClassName("opt3")[0].innerHTML;
-        var option4=document.getElementsByClassName("opt4")[0].innerHTML;
+        var ans=[1,3,4,3,1,2,3,1,2,2];
+        var question=document.getElementsByClassName("Question")[0];
+        var option1=document.getElementsByClassName("opt1")[0];
+        var option2=document.getElementsByClassName("opt2")[0];
+        var option3=document.getElementsByClassName("opt3")[0];
+        var option4=document.getElementsByClassName("opt4")[0];
+        var scoreText=document.getElementsByClassName("scoreText")[0];
         window.onload=function ()
         {
+            question.innerHTML=q[i];
+            option1.innerHTML=op1[i];
+            option2.innerHTML=op2[i];
+            option3.innerHTML=op3[i];
+            option4.innerHTML=op4[i];
+        }
+        function giveScore(x)
+        {
+            if(x==ans[i])
+            {
+                scoreText.innerHTML="Score : "+ (++score)
+            }
+            i++
+        }
+        function clickOption(x)
+        {
+            if(i<9)
+            {
+                giveScore(x)
+                question.innerHTML=q[i];
+                option1.innerHTML=op1[i];
+                option2.innerHTML=op2[i];
+                option3.innerHTML=op3[i];
+                option4.innerHTML=op4[i];
+            }
+            else
+            {
+                showScore(score)
+            }
+        }
+        function showScore(x)
+        {
+            document.getElementById("link").href="score.css"
+            question.innerHTML="Final Score : "+score
+            scoreText.innerHTML="Abilities Learned : \n1.Language\n2.Homophones\n3.Pronouns"
         }
     </script>
 </html>
